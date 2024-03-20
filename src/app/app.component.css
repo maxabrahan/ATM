@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(13, 220, 120);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  /* Input group styles */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .input-group button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Buttons styles */
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .buttons button {
+    width: calc(25% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .buttons button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Withdraw button styles */
+  button[type="button"] {
+    background-color: #4CAF50; /* Green */
+    color: rgb(12, 12, 12);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #45A049;
+  }
+  
+  /* Results styles */
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .results p {
+    font-weight: bold;
+  }
+  
